@@ -8,8 +8,6 @@ public class DataBaseProjectApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DataBaseProjectApplication.class, args);
-
-        System.out.println("Hello!");
     }
 
 }
