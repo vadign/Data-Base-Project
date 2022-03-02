@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @GetMapping("/Hello")
-    public String getHello(){
+    public String getHello() {
         return """
                 <!DOCTYPE html>
                 <html lang="en">
